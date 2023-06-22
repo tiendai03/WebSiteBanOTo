@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* content */
+.content {
+    padding-top: 5.2%;
+    background-color: #e7e7e7;
+}
+.banner {
+    width: 100%;
+    height: 480px;
+}
+
+#carouselId {}
+
+.carousel-inner {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+.product {
+    width: 100%;
+    height: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container {
+    width: 33%;
+    height: 45%;
+    margin: 0;
+    padding-top: 1%;
+    cursor: pointer;
+}
+
+.image {
+    width: 100%;
+    height: 75%;
+    border: 2px solid transparent;
+    overflow: hidden;
+}
+.image img {
+    width: 100%;
+    height: 100%;
+    background-repeat: none;
+    background-size: cover;
+    transition: all 1s ease;
+    
+}
+
+.image img:hover {
+    
+    transform: scale(1.07) translateZ(0);
+    transition: all 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+p {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: rgb(39, 35, 35);
+    text-align: center;
+}
+
+.heading-product {
+    color: black;
+    font-weight: 600;
+    padding-top: 5%;
+}
+
+/* end product */
+
+/* purchase */
+.purchase{
+    width: 100%;
+    height: 310px;
+    background-color: #e7e7e7;
+}
+
+.heading {
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: 600;
+    height: 10%;
+    text-transform: uppercase;
+}
+
+.container-pur {
+    width: 100%;
+    height: 87%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1% 10%
+}
+
+.box {
+    width: 25%;
+    height: 100%;
+    padding: 1% 4%;
+}
+.image-pur {
+    width: 100%;
+    height: 50%;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+}
+.image-pur img {
+    width: 50%;
+}
+.text-pur {
+    text-align: center;
+    color: black;
+    padding: 3% 0;
+    margin: 0;
+}
+
+.text-pur1{
+    padding-top: 6%;
+}
+
+.text-pur2 {
+    display: block;
+}
+/* end purchase */
+
+/* service-banner */
+.service-banner {
+    width: 100%;
+    height: 726px;
+    background-image: url(/IMG/service-11-min.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 5%;
+    /* opacity: .8; */
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+.box-ser {
+    width: 25%;
+    height: 50%;
+    margin: 0 65%;
+    position: absolute;
+    margin-top: 20%;
+}
+.heading-ser {
+    color: white;
+    text-align: start;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.box-ser i {}
+.box-ser button {
+    margin: 6% 0%;
+    width: 45%;
+    height: 15%;
+    border: 1px solid transparent;
+    border-radius: 17px;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: #e7e7e7;
+}
+
+/* end service - banner */
+
+/* service */
+.service {
+    width: 100%;
+    height: 310px;
+    background-color: #e7e7e7;
+    margin-top: 4%;
+}
+
+/* end service */

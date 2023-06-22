@@ -1,0 +1,32 @@
+.para {
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    
+}
+.para h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-para {
+    width: 100%;
+    padding: 0 20%;
+}
+.box-para table {
+    width: 100%;
+    line-height: 35px;
+}
+.box-para table tr {}
+.box-para table tr td{}
+
+.headin {
+    text-align: center;
+    padding-bottom: 1%;
+    padding-top: 4%;
+    border-bottom: 1px solid black;
+}
+
+td {
+    width: 50%;
+}
